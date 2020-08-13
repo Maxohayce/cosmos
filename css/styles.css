@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;;
+}
+
+body {
+    height: 125vh;
+    background-image: url();
+    background-size: cover;
+    font-family: "lemonada", sans-serif;
+    margin-top: 5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #ff7947;
+}
+
+.nav img {
+    height: 6em;
+    margin-top: -0.8rem;
+}
+
+.nav {
+    background-color: #003333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 2px 2px 12px rgba( 0, 0, 0, 0.2);
+    padding: 0px 3%;
+}
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    font-family: "myriad pro regular", lemonada;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    margin-top: 1.5rem;
+}
+.nav-item a {
+    text-decoration: none;
+    color: #a4acc4;
+}
+
+.nav-item a:hover {
+    color: #ff7947;
+}
+
+.main {
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1488229297570-58520851e868?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60');
+    /* opacity: 0.8; */
+}
+
+.about-container {
+    width: 80%;
+    height: auto;
+    background-color: #b8bdcc;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: 10% auto 5rem auto;
+}
+
+.about-text {
+    width: inherit;
+    margin: 5% auto 5rem auto;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    color: #003333;
+}
+
+.about-text a{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    border: 1px solid #003333;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    color: #003333;
+}
+
+.about-text a:hover {
+    background: #003333;
+    color: #fff;
+}
+
+
+
+.products-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+
+.product-card {
+    border: 1px solid #a4acc4;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    width: 30%;
+    height: 21rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #b8bdcc;
+    overflow: hidden;
+    font-family: "myriad pro regular", lemonada;
+}
+
+.products img {
+    height: 75%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.product-details {
+    margin-top: 0.8rem;
+    width: 100%;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-details a{
+    align-self: flex-end;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.footer-item {
+    width: 33%;
+    border: 1px solid #a4a4a4;
+    background-color: #a4acc4;
+    height: 200px;
+    flex: 1;
+    opacity: 0.9;
+}
+
+.footer-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-one li {
+    margin: 0.8rem;
+    font-weight: 800;
+    font-family: "myriad pro regular", lemonada;
+    list-style: none;
+}
+.footer-one a {
+    color: #003333;
+    margin: 0.5rem;
+    text-transform: uppercase;
+}
+
+.footer-two {
+    background-color: #003333;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.contact .name.email.message {
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #a4acc4;
+    color: #a4acc4;
+    padding: 10px 6px;
+    font-size: 2rem;
+    width: 100%;
+}
+
+.footer-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #003333;
+}
+
+.footer-three a {
+    margin: 0.5rem;
+}
